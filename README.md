@@ -1,11 +1,16 @@
-# Judul/Nama Aplikasi
+# Bright Path
 
-Ganti baris di atas dengan judul/nama aplikasi tubes kalian.. Jika sudah, ganti paragraf ini dengan penjelasan singkat mengenai aplikasi tubes yang kalian buat. Beri tahu pembaca, repository ini isinya aplikasi apa, siapa target penggunanya, dan apa saja fitur utamanya. Penjelasan dibuat **minimal** 250 karakter. Selanjutnya ganti susunan tim di bawah sesuai data kelompok.
+BrightPath adalah aplikasi layanan kebersihan yang dirancang untuk memudahkan pengguna dalam mencari dan memesan jasa pembersihan profesional secara online. Aplikasi ini dibuat dengan tujuan untuk memberikan solusi yang efisien dan mudah bagi orang-orang yang sibuk dan tidak memiliki waktu atau tenaga untuk membersihkan rumah atau kantor mereka sendiri. 
+Dengan Target Utama aplikasi kami adalah Masyarakat di seluruh indonesia. Dan fitur utamanya pemesanan :
+1. inline & respon instan
+2. pembersihan dalam & luar area 
+3. tersedia berbagai macam paket layanan
+4. jaminan keamanan
 
 ### Susunan Tim
 
-NIM        | Nama            | Username Github
------------|-----------------| ---------------
-670620xxxx | Nama Mahasiswa1 | usernameMhs1
-670620xxxx | Nama Mahasiswa2 | usernameMhs2
-670620xxxx | Nama Mahasiswa3 | usernameMhs3
+NIM        | Nama                     | Username Github
+-----------|--------------------------| ---------------
+6706220145 | Alif Mahtum Alfaidz      | Alifalfaidz
+6706220039 | Fadhilah muhammad farhan | Fadhilfarhan
+6706220006 | Fazrul Ridha Alliandre   | Faril11
