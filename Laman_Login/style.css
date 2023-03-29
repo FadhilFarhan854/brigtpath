@@ -9,7 +9,9 @@
 
 body{
     background: #020410;
-    
+    background-image: url("Asset/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .header {
@@ -95,6 +97,3 @@ body{
 }
 
 
-.header{
-
-}
