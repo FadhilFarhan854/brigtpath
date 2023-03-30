@@ -10,6 +10,7 @@
 </head>
 <div></div>
 <body>
+    <?php include 'signin.php'?>
     <!-- header -->
     <header class="header">
         <nav class="navbar">
@@ -47,14 +48,14 @@
 
         <div class="logreg-box">
             <div class="form-box login">
-                <form action="#">
+                <form action="" method="post">
                     <h2>sign in</h2>
 
                     <div class="input-box">
                         <span class="icon">
                             <i class='bx bxs-envelope' ></i>
                         </span>
-                        <input type="email" required>
+                        <input type="email" name ="emails" required>
                         <label>email</label>
                     </div>
 
@@ -62,7 +63,7 @@
                         <span class="icon">
                             <i class='bx bxs-lock-alt' ></i>
                         </span>
-                        <input type="password" required>
+                        <input type="password" name = "pass" required>
                         <label>password</label>
                     </div>
 
@@ -72,11 +73,20 @@
                     
                     </div>
 
-                   <button type="submit" class="btn">sign in</button>
+                   <button type="submit" name = "Submit" value = "Submit"class="btn">sign in</button>
 
                    <div class="login-register"><p>don't have an account? <a href="#" class="register-link">sign in</a> </p></div>
                    
-
+<?php 
+                include 'koneksi.php';
+                if(isset($_POST ['Submit'])){
+                    
+                    mysqli_query($koneksi, "insert into accounts set  
+                    email = '$_POST[emails]',
+                    Pass = '$_POST[pass]'");
+                    
+                }
+                ?>
                 </form>
                 
             </div>
