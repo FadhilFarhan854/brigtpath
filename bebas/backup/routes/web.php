@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AccountController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,15 +14,5 @@ use App\Http\Controllers\AccountController;
 */
 
 Route::get('/', function () {
-    return view('Login');
+    return view('welcome');
 });
-Route::get('/test', [AccountController::class, 'index']);
-Route::get('/test', [AccountController::class, 'create']);
-Route::post('/store', [AccountController::class, 'store']);
-Route::get('/Signin',function(){return view('Signin'); });
-
-
-Route::get('/LamanPaketPemesanan', function () {
-    return view('LamanPaketPemesanan');
-});
-

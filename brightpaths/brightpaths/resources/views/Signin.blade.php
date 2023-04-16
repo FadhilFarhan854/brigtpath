@@ -43,7 +43,7 @@
 
         </div>
 
-       
+    
         </div>
 
         <div class="logreg-box">
@@ -81,11 +81,7 @@
                     
                     </div>
 
-                   <button type="submit" name = "Submit" value = "Submit"class="btn">sign in</button>
-
-                  
-                   
-
+                <button type="submit" name = "Submit" value = "Submit"class="btn">sign in</button>
                 </form>
                 
             </div>

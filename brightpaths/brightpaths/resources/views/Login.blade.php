@@ -43,7 +43,7 @@
 
         </div>
 
-       
+
         </div>
 
         <div class="logreg-box">
@@ -63,7 +63,7 @@
                             <i class='bx bxs-lock-alt' ></i>
                         </span>
                         <input type="username" name = "username" required>
-                        <label>Ueername</label>
+                        <label>Username</label>
                     </div>
 
                     <div class="remember-forgot">
@@ -72,10 +72,10 @@
                     
                     </div>
 
-                   <button type="submit" name = "Submit" value = "Submit"class="btn">Login</button>
+                <button type="submit" name = "Submit" value = "Submit"class="btn">Login</button>
 
-                   <div class="login-register"><p>don't have an account? <a href="/Signin" class="register-link">Sign in</a> </p></div>
-                   
+                <div class="login-register"><p>don't have an account? <a href="/Signin" class="register-link">Sign in</a> </p></div>
+                
 
                 </form>
                 
