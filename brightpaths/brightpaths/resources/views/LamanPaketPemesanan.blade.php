@@ -9,10 +9,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
-
 <!-- header -->
-<header class="header">
+<div class="black">
+    <header class="header">
         <nav class="navbar">
             <a href="#">Home</a>
             <a href="#">Login</a>
@@ -25,6 +24,7 @@
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
+<form action="/store2"
 
 </body>
 </html>
