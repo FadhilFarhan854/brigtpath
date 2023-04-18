@@ -24,7 +24,10 @@
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
-<form action="/store2"
 
+    <div>
+        
+    
+    </div>
 </body>
 </html>

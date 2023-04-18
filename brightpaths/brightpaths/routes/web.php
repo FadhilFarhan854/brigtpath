@@ -33,3 +33,7 @@ Route::get('/LamanPendaftaran', function () {
     return view('LamanPendaftaran');
 });
 
+Route::get('/LamanHomePage', function () {
+    return view('LamanHomePage');
+});
+
