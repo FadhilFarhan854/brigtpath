@@ -30,6 +30,6 @@ Route::get('/LamanPaketPemesanan', function () {
 });
 
 Route::get('/LamanPendaftaran', function () {
-    return view('LamanPEndaftaran');
+    return view('LamanPendaftaran');
 });
 

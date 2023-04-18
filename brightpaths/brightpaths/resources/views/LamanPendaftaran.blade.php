@@ -21,26 +21,26 @@
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
- <form action="/store2" method="POST">
+<form action="/store2" method="POST">
     @csrf
 <div class="wrapper">
     <div class="title">
       Registration Form
     </div>
-   
+
     <div class="form">
-       <div class="inputfield">
+      <div class="inputfield">
           <label>First Name</label>
           <input type="text" class="input" name="nama_depan">
-       </div>  
+      </div>  
         <div class="inputfield">
           <label>Last Name</label>
           <input type="text" class="input" name="nama_belakang">
-       </div>  
-       <div class="inputfield">
+      </div>  
+      <div class="inputfield">
           <label>Password</label>
           <input type="password" class="input" name="password">
-       </div>  
+      </div>  
       
         <div class="inputfield">
           <label>Gender</label>
@@ -51,30 +51,30 @@
               <option value="female">Female</option>
             </select>
           </div>
-       </div> 
+      </div> 
         <div class="inputfield">
           <label>Email Address</label>
           <input type="text" class="input" name="email">
-       </div> 
+      </div> 
       <div class="inputfield">
           <label>Phone Number</label>
           <input type="text" class="input" name="no_telephone">
-       </div> 
+      </div> 
       <div class="inputfield">
           <label>Address</label>
           <textarea class="textarea" name="adress"></textarea>
-       </div> 
+      </div> 
       <div class="inputfield">
           <label>Postal Code</label>
           <input type="text" class="input" name = "kode_pos">
-       </div> 
+      </div> 
       <div class="inputfield terms">
           <label class="check">
             <input type="checkbox">
             <span class="checkmark"></span>
           </label>
           <p>Agreed to terms and conditions</p>
-       </div> 
+      </div> 
       <div class="inputfield">
         <input type="submit" value="Register" class="btn">
       </div>

@@ -18,6 +18,6 @@ class karyawanController extends Controller
     public function store2(Request $request){
         
         calon_karyawan :: create($request -> except(['_token', 'submit']));
-        return redirect ('/lamanPendaftaran');
+        return redirect ('/LamanPendaftaran');
     }
 }
