@@ -48,23 +48,24 @@
 
         <div class="logreg-box">
             <div class="form-box login">
-                <form action="">
+                <form action="/authorization" method="POST">
+                    @csrf
                     <h2>Log in</h2>
-
-                    <div class="input-box">
+                        <div class="input-box">
                         <span class="icon">
                             <i class='bx bxs-lock-alt' ></i>
                         </span>
-                        <input type="password" name = "pass" required>
-                        <label>password</label>
-                    </div>
-                    <div class="input-box">
-                        <span class="icon">
-                            <i class='bx bxs-lock-alt' ></i>
-                        </span>
-                        <input type="username" name = "username" required>
+                        <input type="username"  name = "username" required>
                         <label>Username</label>
                     </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-lock-alt' ></i>
+                        </span>
+                        <input type="password"  name = "pass" required>
+                        <label>password</label>
+                    </div>
+                    
 
                     <div class="remember-forgot">
                         <label><input type="checkbox">remember me</label>

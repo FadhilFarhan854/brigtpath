@@ -71,7 +71,7 @@
                         <span class="icon">
                             <i class='bx bxs-lock-alt' ></i>
                         </span>
-                        <input type="password" name = "pass" required>
+                        <input type="password" name = "password" required>
                         <label>password</label>
                     </div>
 
