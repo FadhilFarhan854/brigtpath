@@ -25,6 +25,8 @@
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
+
+    
 <div class="background"></div>
     <div class="container">
         <div class="content">
