@@ -238,13 +238,13 @@ body{
     justify-content: space-between;
 }
 .remember-forgot label input {
-<<<<<<< HEAD
+
    accent-color: #000000;
    margin-right: 3px;
-=======
+
 accent-color: #e4e4e4;
 margin-right: 3px;
->>>>>>> 5964aca5f54b40ce08354df0064e550ba20dbba9
+
 
 }
 .remember-forgot a{
@@ -254,19 +254,130 @@ margin-right: 3px;
 .remember-forgot a:hover {
     text-decoration: underline;
 }
-.btn {
-    width: 100%;
-    height: 45px;
-    background: rgb(47, 203, 238);
-    border: none;
-    outline: none;
-    border-radius: 4px;
+
+
+
+  
+  .btn {
+    --border-color: linear-gradient(-45deg, #044bc7, #ffffff, #146aff);
+    --border-width: .125em;
+    --curve-size: .5em;
+    --blur: 30px;
+    --bg: #292929;
+    --color: #ffffff;
+    left: 65px;
+    width: 200px;
+    color: var(--color);
+    position: relative;
+    isolation: isolate;
     cursor: pointer;
-    font-size: 16px;
+    display: inline-grid;
+    place-content: center;
+    padding: .5em 1.5em;
+    font-size: 17px;
+    border: 0;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+    clip-path: polygon(
+              0% var(--curve-size),
+  
+              var(--curve-size) 0,
+  
+              100% 0,
+              100% calc(100% - var(--curve-size)),
+  
+  
+              calc(100% - var(--curve-size)) 100%,
+  
+              0 100%);
+    transition: color 250ms;
+  }
+  
+  .btn::after,
+  .btn::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+  }
+  
+  .btn::before {
+    background: var(--border-color);
+    background-size: 300% 300%;
+    animation: move-bg7234 5s ease infinite;
+    z-index: -2;
+  }
+  
+  @keyframes move-bg7234 {
+    0% {
+      background-position: 31% 0%
+    }
+  
+    50% {
+      background-position: 70% 100%
+    }
+  
+    100% {
+      background-position: 31% 0%
+    }
+  }
+  
+  .btn::after {
+    background: var(--bg);
+    z-index: -1;
+    clip-path: polygon(
+              /* Top-left */
+              var(--border-width)
+              calc(var(--curve-size) + var(--border-width) * .5),
+  
+              calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+  
+  
+              calc(100% - var(--border-width))
+              var(--border-width),
+  
+              calc(100% - var(--border-width))
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+  
+              calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+  
+              var(--border-width) calc(100% - var(--border-width)));
+    transition: clip-path 500ms;
+  }
+  
+  .btn:where(:hover, :focus)::after {
+    clip-path: polygon(
+  
+                  calc(100% - var(--border-width))
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+  
+                  calc(100% - var(--border-width))
+  
+                  var(--border-width),
+  
+                  calc(100% - var(--border-width))
+  
+                   var(--border-width),
+  
+                  calc(100% - var(--border-width))
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+  
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5))
+                  calc(100% - var(--border-width)),
+  
+  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                  calc(100% - var(--border-width)));
+    transition: 200ms;
+  }
+  
+  .btn:where(:hover, :focus) {
     color: #000000;
-    font-weight: 500;
-    box-shadow: 0 0 10px rgba(0,0,0,.5);
-}
+  }
+    
 .form-box .login-register{
     font-size: 14.5px;
     font-weight: 500;
