@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="Pemsenanan.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+
 <body>
 <!-- header -->
 <div class="black">
@@ -25,9 +26,7 @@
         </form>
     </header>
 
-    <div>
-        
-    
-    </div>
+<h1 class="Title">Paket Pemsenanan</h1>
+<p class="Lanjutan title">Kami menyediakan beberapa paket sesuai dengan kebutuhan anda</p>
 </body>
 </html>

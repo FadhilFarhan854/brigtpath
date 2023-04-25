@@ -96,3 +96,28 @@ padding: 0 10px;
     font-size: 22px;
     color: #e4e4e4;
 }
+
+.Title {
+    color: whitesmoke;
+    font-size: xx-large; 
+    font-weight: 600;
+    left: 142px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 177px;
+    z-index: 6;
+}
+
+.Lanjutan title{
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: 600;
+    left: 142px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 277px;
+    width: 829px;
+    z-index: 7;
+}
