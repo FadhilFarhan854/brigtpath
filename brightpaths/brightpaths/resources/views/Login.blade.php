@@ -50,7 +50,7 @@
 
         <div class="logreg-box">
             <div class="form-box login">
-                <form action="/LamanHomePage" method="GET">
+                <form action="/auth" method="post">
                     @csrf
                     <h2>Log in</h2>
                         <div class="input-box">

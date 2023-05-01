@@ -36,4 +36,9 @@ Route::get('/LamanPendaftaran', function () {
 Route::get('/LamanHomePage', function () {
     return view('LamanHomePage');
 });
+Route::get('/Main', function () {
+    return view('mainPage');
+});
+
+Route::post('/auth', [AccountController::class, 'authentication']);
 
