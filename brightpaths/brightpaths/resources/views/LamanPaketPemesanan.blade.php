@@ -27,6 +27,7 @@
     </header>
 
 <h1 class="Title">Paket Pemsenanan</h1>
-<p class="Lanjutan title">Kami menyediakan beberapa paket sesuai dengan kebutuhan anda</p>
+<h4 class="Title2"> Kami menyediakan beberapa paket sesuai dengan kebutuhan anda </h4>
+
 </body>
 </html>

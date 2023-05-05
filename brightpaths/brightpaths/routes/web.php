@@ -40,5 +40,9 @@ Route::get('/Main', function () {
     return view('mainPage');
 });
 
+Route::get('/LamanPemesanan', function () {
+    return view('LamanPemesanan');
+});
+
 Route::post('/auth', [AccountController::class, 'authentication']);
 

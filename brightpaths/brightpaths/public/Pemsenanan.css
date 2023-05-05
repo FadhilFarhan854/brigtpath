@@ -121,3 +121,19 @@ padding: 0 10px;
     width: 829px;
     z-index: 7;
 }
+
+.Title2{
+    position: absolute;
+width: 829px;
+height: 116px;
+left: 142px;
+top: 225px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 58px;
+
+color: #FFFFFF;
+}
+

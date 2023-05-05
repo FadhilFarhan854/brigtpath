@@ -10,16 +10,11 @@
   <div class="black">
     <header class="header">
         <nav class="navbar">
+            {{-- <img src="Asset/logo.jpeg" alt="" style="width: 128.03px " > --}}
             <a href="#">Home</a>
-            <a href="#">Login</a>
-            <a href="#">Giftcard</a>
+            <a href="#">About Us</a>
             <a href="#">Help</a>
         </nav>
-
-        <form action="#" class="search-bar">
-            <input type="text" placeholder="search...">
-            <button type="submit"><i class='bx bx-search'></i></button>
-        </form>
     </header>
 <form action="/store2" method="POST">
     @csrf
