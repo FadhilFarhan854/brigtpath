@@ -72,18 +72,11 @@
             Ringkasan Pemesanan
         </div>
 
-    <div class="inputfield">
-        <label>Phone Number</label>
-        <input type="text" class="input" name="no_telephone">
-    </div> 
-    <div class="inputfield">
-        <label>Address</label>
-        <textarea class="textarea" name="adress"></textarea>
-    </div> 
-    <div class="inputfield">
-        <label>Postal Code</label>
-        <input type="text" class="input" name = "kode_pos">
-    </div> 
+        <div class="class = kotak1">
+            <p>Harga Layanan</p> <br>
+            <p>Total harga</p>
+        </div>
+
     <div class="inputfield terms">
         <label class="check">
             <input type="checkbox">
@@ -92,7 +85,7 @@
         <p>Agreed to terms and conditions</p>
     </div> 
     <div class="inputfield">
-        <input type="submit" value="Register" class="btn">
+        <input type="submit" value="Pesan Sekarang" class="btn">
     </div>
     </div></form>
     <div class="addbox">

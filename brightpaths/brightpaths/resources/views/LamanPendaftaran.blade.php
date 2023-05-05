@@ -47,22 +47,7 @@
             </select>
           </div>
       </div> 
-        <div class="inputfield">
-          <label>Email Address</label>
-          <input type="text" class="input" name="email">
-      </div> 
-      <div class="inputfield">
-          <label>Phone Number</label>
-          <input type="text" class="input" name="no_telephone">
-      </div> 
-      <div class="inputfield">
-          <label>Address</label>
-          <textarea class="textarea" name="adress"></textarea>
-      </div> 
-      <div class="inputfield">
-          <label>Postal Code</label>
-          <input type="text" class="input" name = "kode_pos">
-      </div> 
+
       <div class="inputfield terms">
           <label class="check">
             <input type="checkbox">
@@ -75,7 +60,6 @@
       </div>
     </div></form>
     <div class="addbox">
-      
     </div>
 </div>	
 	</div>
