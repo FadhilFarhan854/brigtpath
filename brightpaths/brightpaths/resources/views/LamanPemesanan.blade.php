@@ -73,8 +73,8 @@
         </div>
 
         <div class="class = kotak1">
-            <p>Harga Layanan</p> <br>
-            <p>Total harga</p>
+            <p>Harga Layanan</p> <p>Harga</p> <br>
+            <p>Total harga</p> <p>Harga</p>
         </div>
 
     <div class="inputfield terms">
