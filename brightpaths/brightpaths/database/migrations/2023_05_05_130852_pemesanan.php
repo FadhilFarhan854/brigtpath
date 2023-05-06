@@ -11,12 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('account', function (Blueprint $table) {
+        Schema::create('Pemesanan', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
-            $table->string('email');
-            $table->string ('password');
             $table->timestamps();
+            $table->string('nama_lengkap');
+            $table->string('nomor_hp');
+            $table->string('Lokasi');
+            $table->string('service_detail');
+            $table->string('Catatan');
+            $table->string('pembayaran');
+            
         });
     }
 
@@ -25,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('account');
+        //
     }
 };

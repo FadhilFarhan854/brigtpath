@@ -28,6 +28,7 @@ class AccountController extends Controller
     }
 
     public function authentication(){
+        session_start();
         $server = "localhost";
         $username="root";
 	    $pass="";
@@ -50,6 +51,7 @@ class AccountController extends Controller
 
                 $row = mysqli_fetch_assoc($result);
                 if($password == $row["password"]){
+                    $_SESSION ["Login"] = true; 
                     return redirect('/LamanHomePage');
                     exit;
                 }
