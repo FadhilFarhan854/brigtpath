@@ -49,3 +49,12 @@ Route::get('/LamanPemesanan', function () {
 
 Route::post('/auth', [AccountController::class, 'authentication']);
 
+Route::get('/approval', function () {
+    return view('aproval');
+});
+Route::get('/karyawan', function () {
+    return view('karyawan');
+});
+Route::get('/pemesanan', function () {
+    return view('pemesanan');
+});

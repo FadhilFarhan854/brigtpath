@@ -41,8 +41,8 @@
           <label>Gender</label>
           <div class="custom_select" nama= "jenis_kelamin">
             <select>
-              <option value="">Select</option>
-              <option value="male">Male</option>
+              <option value=""  >Select</option>
+              <option value="male" >Male</option>
               <option value="female">Female</option>
             </select>
           </div>
@@ -79,5 +79,18 @@
     </div>
 </div>	
 	</div>
+  <Script>
+    function price(prc){
+        var prices;
+        if(prc == 0){
+            document.getElementById("namas").value = "male";
+        }else if(prc == 1){
+            document.getElementById("namas").value = "female";
+            
+        }
+
+        
+    }
+</Script>
 </body>
 </html>
