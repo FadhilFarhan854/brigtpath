@@ -10,16 +10,15 @@
 </head>
 <body>
     <nav>
-        <div class="wrapper">
-            <div class="logo"> <a href="">Homepage</a></div>
+        <div class="Header">
+            <div class="logo"> <a href="">BrightPath</a></div>
             <div class="menu">
                 <ul>
-                    <li> <a href="#home">Home</a></li>
-                    <li> <a href="#courses">Courses</a></li>
-                    <li> <a href="#tutors">Tutors</a></li>
-                    <li> <a href="#partners">Partners</a></li>
-                    <li> <a href="#contact">Contact</a></li>
-                    <li> <a href="" class="tbl-biru">Sign Up</a></li>
+                    <li> <a href="#home">Services</a></li>
+                    <li> <a href="#courses">Login</a></li>
+                    <li> <a href="#tutors">Help</a></li>
+                    <li> <a href="#partners">Gift Card</a></li>
+                    <li> <a href="" class="tbl-biru">BOOK IN 60 SECONDS</a></li>
                 </ul>
             </div>
         </div>
@@ -61,19 +60,23 @@
                 <div class="tutor-list">
                     <div class="kartu-tutor">
                         <img src="https://images.ctfassets.net/1wryd5vd9xez/4DxzhQY7WFsbtTkoYntq23/a4a04701649e92a929010a6a860b66bf/https___cdn-images-1.medium.com_max_2000_1_Y6l_FDhxOI1AhjL56dHh8g.jpeg" alt="">
-                        <p>james</p>
+                        <p>SAVES YOU TIME</p>
+                        <p>Bright Path Helps you live smarter, giving you time to focus on what's most important</p>
                     </div>
                     <div class="kartu-tutor">
                         <img src="https://www.emc.id/storage/1104/conversions/dr-abdul-muhaimin-medium.jpg" alt="">
-                        <p>david</p>
+                        <p>SAFETY FIRST</p>
+                        <p>We rigorously vet all of our Cleaners, who undergo identity checks as well as in person interviews</p>
                     </div>
                     <div class="kartu-tutor">
                         <img src="https://images.ctfassets.net/1wryd5vd9xez/6imn4PsoUBr6I9Hs8jWxk4/b28965e1afec63588266cf42ba5178ae/https___cdn-images-1.medium.com_max_2000_1_7hkI-ZKsglnbjxCRV1bMZA.png" alt="">
-                        <p>megan</p>
+                        <p>CASH-FREE PAYMENT</p>
+                        <p>Pay securely online only when the cleaning is complete</p>
                     </div>
                     <div class="kartu-tutor">
                         <img src="https://images.ctfassets.net/1wryd5vd9xez/3eMkiOLlO0QHz9Mvlmf6DT/4b2d121af557d824fa06fa5f15ea3541/https___cdn-images-1.medium.com_max_2000_1_PNLzp2L-PbUP-6HKm2ey0A.jpeg" alt="">
-                        <p>ladies</p>
+                        <p>ONLY THE BEST QUALITY</p>
+                        <p>Our skilled profesionals go above and beyond on every job</p>
                     </div>
                 </div>
             </div>
@@ -84,7 +87,7 @@
             <div class="tengah">
                 <div class="kolom">
                     <p class="deskripsi"> babayo</p>
-                    <h2>Partners</h2>
+                    <h2>Our feature</h2>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti accusamus libero necessitatibus, saepe odit neque rerum quidem odio in ad exercitationem ex maiores, quos atque, amet explicabo. Nemo, officiis ex?</p>
 
 
