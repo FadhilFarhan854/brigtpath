@@ -20,4 +20,41 @@ class karyawanController extends Controller
         calon_karyawan :: create($request -> except(['_token', 'submit']));
         return redirect ('/LamanPendaftaran');
     }
+    public function authk(){
+        session_start();
+        $server = "localhost";
+        $username="root";
+	    $pass="";
+	    $dbname="brightpaths";
+	
+	$conn = mysqli_connect($server, $username, $pass, $dbname);
+
+	if(!$conn){
+		die("connection failed : ". mysqli_connect_error());
+	}
+
+        if (isset($_POST["Submit"])){
+            $email = $_POST["email"];
+            $password = $_POST["pass"];
+
+            $result = mysqli_query($conn, "Select * From karyawan WHERE email = '$email'");
+            
+            
+            if(mysqli_num_rows($result) === 1){
+
+               $row = mysqli_fetch_assoc($result);
+                if($password == $row["password"]){
+                    $_SESSION ["Login"] = true; 
+                    $temp = $row["adress"];
+                    $_SESSION["Lokasi"] = $temp;
+                    return redirect('/pemesanan');
+                    exit;
+                }
+                
+            }
+            return redirect('/LoginKaryawan');
+
+            
+        }
+    }
 }

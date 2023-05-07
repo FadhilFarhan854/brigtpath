@@ -72,7 +72,7 @@
     <h1>Pemesanan</h1>
     <hr>
 <?php  
-session_start();
+
 $server="localhost";
 $username="root";
 $pass="";
@@ -80,8 +80,6 @@ $dbname="brightpaths";
 
 
 $conn = mysqli_connect($server, $username, $pass, $dbname);
-$alamat = $_SESSION["Lokasi"];
-
 $query = "SELECT * from pemesanan ";
 
 
