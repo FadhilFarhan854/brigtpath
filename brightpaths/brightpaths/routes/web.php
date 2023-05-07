@@ -65,3 +65,6 @@ Route::get('/LoginKaryawan', function () {
 Route::get('/pemesananAdmin', function () {
     return view('pemesananAdmin');
 });
+Route::get('/Adminmenu', function () {
+    return view('adminMenu');
+});

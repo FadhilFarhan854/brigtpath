@@ -80,9 +80,9 @@ $dbname="brightpaths";
 
 
 $conn = mysqli_connect($server, $username, $pass, $dbname);
-$alamat = $_SESSION["Lokasi"];
 
-$query = "SELECT * from pemesanan ";
+$alamat = $_SESSION ["alamat"];
+$query = "SELECT * from pemesanan WHERE Lokasi = '$alamat'";
 
 
 $hasil = mysqli_query($conn, $query);

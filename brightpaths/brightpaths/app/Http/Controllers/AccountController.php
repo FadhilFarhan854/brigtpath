@@ -43,17 +43,23 @@ class AccountController extends Controller
         if (isset($_POST["Submit"])){
             $username = $_POST["username"];
             $password = $_POST["pass"];
-
+            $query = "Select status From account WHERE nama = '$username'";
             $result = mysqli_query($conn, "Select * From account WHERE nama = '$username'");
-
+            $row = mysqli_fetch_assoc($result);
+            $_SESSION["stat"] = $row["status"];
 
             if(mysqli_num_rows($result) === 1){
 
-                $row = mysqli_fetch_assoc($result);
+                
                 if($password == $row["password"]){
                     $_SESSION ["Login"] = true; 
-                    return redirect('/LamanHomePage');
-                    exit;
+                    if($_SESSION["stat"] == "admin"){
+                        return redirect('/Adminmenu');
+                    }else{
+                        return redirect('/LamanHomePage');
+                    }
+                    
+                   
                 }
                 
             }

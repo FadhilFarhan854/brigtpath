@@ -38,15 +38,16 @@ class karyawanController extends Controller
             $password = $_POST["pass"];
 
             $result = mysqli_query($conn, "Select * From karyawan WHERE email = '$email'");
-            
-            
+           
+              
             if(mysqli_num_rows($result) === 1){
-
-               $row = mysqli_fetch_assoc($result);
+                $row = mysqli_fetch_assoc($result);
                 if($password == $row["password"]){
+                  
                     $_SESSION ["Login"] = true; 
-                    $temp = $row["adress"];
-                    $_SESSION["Lokasi"] = $temp;
+                    $_SESSION ["alamat"] = $row["adress"]; 
+                    
+                  
                     return redirect('/pemesanan');
                     exit;
                 }
