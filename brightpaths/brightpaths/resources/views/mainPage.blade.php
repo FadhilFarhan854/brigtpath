@@ -25,8 +25,7 @@
 
     <section>
         
-       <img class="imager" class="black" src="Asset/a.png" alt=""  >
-       
+    <img class="imager" class="black" src="Asset/a.png" alt=""  >
         
     </section>
 </body>
