@@ -43,7 +43,7 @@
         <div class="inputfield">
         <label>Service Detail</label>
         <input type="hidden" id="namas" class="input" name="service_detail">
-       
+    
             <button type="button" class="btn" onclick="price(0)" >Kamar</button>
             <button type="button" class="btn"  onclick="price(1)"  >Rumah</button>
             <button type="button"  class="btn" onclick="price(2)"  >Kantor</button>
