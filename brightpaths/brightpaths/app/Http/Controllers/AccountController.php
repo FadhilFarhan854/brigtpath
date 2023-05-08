@@ -47,6 +47,7 @@ class AccountController extends Controller
             $result = mysqli_query($conn, "Select * From account WHERE nama = '$username'");
             $row = mysqli_fetch_assoc($result);
             $_SESSION["stat"] = $row["status"];
+            $_SESSION["Login"] = true;
 
             if(mysqli_num_rows($result) === 1){
 

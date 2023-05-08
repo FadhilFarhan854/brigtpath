@@ -1,7 +1,16 @@
 <!DOCTYPE html>
 <?php 
 session_start();
-?>
+
+if(!isset($_SESSION["Login"])){
+   return redirect('/');;}
+?> 
+<script>
+  alert = "Login dulu";
+</script>
+<?php ?> 
+
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -19,7 +28,7 @@ session_start();
     <header>My App</header>
   <ul>
     <li><a href="/pemesananAdmin"><i class="fas fa-link"></i>Pemesanan</a></li>
-    <li><a href="/aproval"><i class="fas fa-stream"></i>approval</a></li>
+    <li><a href="/approval"><i class="fas fa-stream"></i>approval</a></li>
     <li><a href="/karyawan"><i class="fas fa-calendar-week"></i>karyawan</a></li>
     
   </ul>

@@ -39,17 +39,17 @@ class karyawanController extends Controller
 
             $result = mysqli_query($conn, "Select * From karyawan WHERE email = '$email'");
            
-              
+              $row = mysqli_fetch_assoc($result);
             if(mysqli_num_rows($result) === 1){
-                $row = mysqli_fetch_assoc($result);
+               
                 if($password == $row["password"]){
-                  
+                   
                     $_SESSION ["Login"] = true; 
                     $_SESSION ["alamat"] = $row["adress"]; 
                     
                   
                     return redirect('/pemesanan');
-                    exit;
+                   
                 }
                 
             }
