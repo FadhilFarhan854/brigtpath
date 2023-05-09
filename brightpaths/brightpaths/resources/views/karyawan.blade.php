@@ -114,6 +114,7 @@ if(!$conn){
             $no_telephone = $value['no_telephone'];
             $adress = $value['adress'];
             $kode_pos = $value['kode_pos'];
+            $status = $value['status'];
            ?>
            
            <tr>
@@ -158,8 +159,9 @@ if(!$conn){
 					?>
 				</td>
                 <td>
-                    
-
+					<?php
+					echo "$status";
+					?>
 				</td>
                 
 

@@ -46,6 +46,7 @@ class karyawanController extends Controller
                    
                     $_SESSION ["Login"] = true; 
                     $_SESSION ["alamat"] = $row["adress"]; 
+                    $_SESSION ["email"] = $row["email"]; 
                     
                   
                     return redirect('/pemesanan');

@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('no_telephone');
             $table->string('adress');
             $table->string('kode_pos');
+            $table->string('status')->default("available");
         });
     }
 
@@ -31,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        Schema::dropIfExists('karyawan');
     }
 };

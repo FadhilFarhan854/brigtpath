@@ -146,7 +146,23 @@ if(!$conn){
     
     </table>
     
-   
+    <form action="" method="Get">
+        <input type="text" name ="ids" label ="id">
+        <input type="submit" name = "accept" value="accept">
+        
+    </form>
+    <?php 
+    if (isset($_GET['accept'])){
+    $ids = $_GET['ids'];
+    $emails = $_SESSION ["email"];
+    $query2 = "UPDATE karyawan SET status = 'unavailable' WHERE email = '$emails'";
+    $query3 = "DELETE FROM `pemesanan` WHERE id = $ids";
+    $tambah = mysqli_query($conn, $query2);
+    $hapus = mysqli_query($conn, $query3);
+    
+    
+}
+    ?>
 
 </body>
 
