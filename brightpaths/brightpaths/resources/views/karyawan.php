@@ -69,10 +69,10 @@
 
 <body>
 
-    <h1>Pemesanan</h1>
+    <h1>Karyawan</h1>
     <hr>
 <?php  
-session_start();
+
 $server="localhost";
 $username="root";
 $pass="";
@@ -80,9 +80,7 @@ $dbname="brightpaths";
 
 
 $conn = mysqli_connect($server, $username, $pass, $dbname);
-
-$alamat = $_SESSION ["alamat"];
-$query = "SELECT * from pemesanan WHERE Lokasi = '$alamat'";
+$query = "SELECT * from karyawan";
 
 
 $hasil = mysqli_query($conn, $query);
@@ -96,48 +94,74 @@ if(!$conn){
     <table>
         <tr id="header">
             <th>id</th>
-            <th>nama lengkap</th>
-            <th>nomor hp</th>
-            <th>Lokasi</th>
-            <th>service_detail</th>
+            <th>nama depan</th>
+            <th>nama belakang</th>
+            <th>jenis kelamin</th>
+            <th>email</th>
+            <th>nomer telp</th>
+            <th>alamat</th>
+            <th>kode pos</th>
+            <th>status</th>
         </tr>
         <?php 
         foreach($hasil as $value){
             $id = $value['id'];
-			$nama_lengkap = $value['nama_lengkap'];
-			$nomor_hp = $value['nomor_hp'];
-            $Lokasi = $value['Lokasi'];
-            $service_detail = $value['service_detail'];
-           
+			$nama_depan = $value['nama_depan'];
+			$nama_belakang = $value['nama_belakang'];
+            $password = $value['password'];
+            $jenis_kelamin = $value['jenis_kelamin'];
+            $email = $value['email'];
+            $no_telephone = $value['no_telephone'];
+            $adress = $value['adress'];
+            $kode_pos = $value['kode_pos'];
            ?>
            
            <tr>
-				<td >
+				<td name = "id">
 					<?php
 					echo "$id";
 					?>
 				</td>
-				<td >
+				<td name = "nama_depan">
 					<?php
-					echo "$nama_lengkap";
+					echo "$nama_depan";
 					?>
 				</td>
-			    <td >
+			    <td name ="nama_belakang">
 					<?php
-					echo "$nomor_hp";
+					echo "$nama_belakang";
 					?>
 				</td>
-				<td >
+				<td name="jenis_kelamin">
 					<?php
-					echo "$Lokasi";
+					echo "$jenis_kelamin";
 					?>
 				</td>
-				<td >
+				<td name="email">
 					<?php
-					echo "$service_detail";
+					echo "$email";
 					?>
 				</td>
-				
+				<td>
+					<?php
+					echo "$no_telephone";
+					?>
+				</td>
+				<td>
+					<?php
+					echo "$adress";
+					?>
+				</td>
+				<td>
+					<?php
+					echo "$kode_pos";
+					?>
+				</td>
+                <td>
+                    
+
+				</td>
+                
 
 			</tr>
            <?php 
@@ -146,30 +170,7 @@ if(!$conn){
     
     </table>
     
-    <form action="" method="Get">
-        <input type="text" name ="ids" label ="id">
-        <input type="submit" name = "accept" value="accept">
-        
-    </form>
-    <?php 
-    if (isset($_GET['accept'])){
-        //ambil id
-    $ids = $_GET['ids'];
-    $emails = $_SESSION ["email"];
-    //ambil kolom perbaris
-    $result = mysqli_query($conn, "Select * From pemesanan WHERE id = '$ids'");
-    $row = mysqli_fetch_assoc($result);
-    //query update stat karyawan & hapus dari pemesanan karyawan
-    $query2 = "UPDATE karyawan SET status = 'unavailable' WHERE email = '$emails'";
-    $query3 = "DELETE FROM `pemesanan` WHERE id = $ids";
-    $tambah = mysqli_query($conn, $query2);
-    $hapus = mysqli_query($conn, $query3);
-    //query update stat pemesanan admin
-
-    
-    
-}
-    ?>
+   
 
 </body>
 

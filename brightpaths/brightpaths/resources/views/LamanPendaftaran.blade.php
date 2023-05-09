@@ -39,13 +39,11 @@
       
         <div class="inputfield">
           <label>Gender</label>
-          <div class="custom_select" nama= "jenis_kelamin">
-            <select>
-              <option value=""  >Select</option>
-              <option value="male" >Male</option>
-              <option value="female">Female</option>
-            </select>
-          </div>
+         
+           <input type="hidden" id="namas" class = "input" name="jenis_kelamin">
+           <button type="button" class="btn" onclick="price(0)" >Male</button>
+           <button type="button" class="btn"  onclick="price(1)"  >Female</button>
+          
       </div> 
       <div class="inputfield">
         <label>Email</label>
