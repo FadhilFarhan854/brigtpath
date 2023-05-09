@@ -1,0 +1,13 @@
+.container{
+    background-color: #1d1d1d;
+    width: 100%;
+}
+
+
+.container .header{
+    display: flex;
+}
+
+.container .foto{
+    width:20%;
+}
