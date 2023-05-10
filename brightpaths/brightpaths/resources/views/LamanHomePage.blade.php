@@ -32,10 +32,37 @@
       <div class="justify-content-end">
         <a href="" class="btn btn-dark"> Book in 60 second</a>
       </div>
-    </header>
+    {{--</header>--}}
   </div>
 </div>
 </div>
   </header>
+
+  <main>
+    <div class="background1">
+        <div class="hitam">
+            <div class="hitamteks"><h1>HIGHER QUALITY HOME CLEANING SERVICES</h1>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 style="font-size: 25px">LET US CONNECT YOU WITH A CLEANER YOU’LL LOVE, AT A CLICK OF A BUTTON</h2></div>
+
+        </div>
+
+
+    </div>
+    <div class="background2">
+        <div><img src="{{ asset('Asset/logo.jpeg') }} " alt="" class="foto">
+            <h1>hehehehe</h1>
+        </div>
+
+
+    </div>
+
+    <div class="background3">
+       
+    </div>
+  </main>
 </body>
 </html>
