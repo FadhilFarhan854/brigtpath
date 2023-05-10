@@ -80,7 +80,7 @@ $dbname="brightpaths";
 
 
 $conn = mysqli_connect($server, $username, $pass, $dbname);
-$query = "SELECT * from pemesanan ";
+$query = "SELECT * from pemesanan_admin ";
 
 
 $hasil = mysqli_query($conn, $query);
@@ -98,6 +98,7 @@ if(!$conn){
             <th>nomor hp</th>
             <th>Lokasi</th>
             <th>service_detail</th>
+            <th>status</th>
         </tr>
         <?php 
         foreach($hasil as $value){
@@ -106,6 +107,7 @@ if(!$conn){
 			$nomor_hp = $value['nomor_hp'];
             $Lokasi = $value['Lokasi'];
             $service_detail = $value['service_detail'];
+            $status = $value['status_pesanan'];
            
            ?>
            
@@ -133,6 +135,11 @@ if(!$conn){
 				<td >
 					<?php
 					echo "$service_detail";
+					?>
+				</td>
+				<td >
+					<?php
+					echo "$status";
 					?>
 				</td>
 				

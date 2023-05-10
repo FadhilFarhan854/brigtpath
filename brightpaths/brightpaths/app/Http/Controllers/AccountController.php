@@ -54,10 +54,11 @@ class AccountController extends Controller
                 
                 if($password == $row["password"]){
                     $_SESSION ["Login"] = true; 
+                    $_SESSION["id"] = $row["id"];
                     if($_SESSION["stat"] == "admin"){
                         return redirect('/Adminmenu');
                     }else{
-                        return redirect('/LamanHomePage');
+                        return redirect('/mainTemp');
                     }
                     
                    

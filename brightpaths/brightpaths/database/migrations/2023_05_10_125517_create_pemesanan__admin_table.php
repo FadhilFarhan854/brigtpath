@@ -20,7 +20,9 @@ return new class extends Migration
             $table->string('service_detail');
             $table->string('Catatan');
             $table->string('pembayaran');
-            $table->bigInteger('id_user');
+            $table->bigInteger('id_user') -> nullable();
+            $table->string('status_pesanan') ->nullable();
+            $table->integer('id_karyawan') ->nullable();
         });
     }
 
@@ -29,6 +31,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('pemesanan_admin');
+        Schema::dropIfExists('pemesanan__admin');
     }
 };

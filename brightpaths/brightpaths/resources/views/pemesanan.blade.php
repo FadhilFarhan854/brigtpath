@@ -152,18 +152,24 @@ if(!$conn){
         
     </form>
     <?php 
+    
     if (isset($_GET['accept'])){
         //ambil id
     $ids = $_GET['ids'];
     $emails = $_SESSION ["email"];
+    $id_karyawan =  $_SESSION ["id_karyawan"];
     //ambil kolom perbaris
     $result = mysqli_query($conn, "Select * From pemesanan WHERE id = '$ids'");
     $row = mysqli_fetch_assoc($result);
+    
     //query update stat karyawan & hapus dari pemesanan karyawan
     $query2 = "UPDATE karyawan SET status = 'unavailable' WHERE email = '$emails'";
+    $query4 = "UPDATE pemesanan_admin SET id_karyawan = '$id_karyawan' WHERE id = $ids";
     $query3 = "DELETE FROM `pemesanan` WHERE id = $ids";
     $tambah = mysqli_query($conn, $query2);
+     $rest = mysqli_query($conn, $query4);
     $hapus = mysqli_query($conn, $query3);
+   
     //query update stat pemesanan admin
 
     

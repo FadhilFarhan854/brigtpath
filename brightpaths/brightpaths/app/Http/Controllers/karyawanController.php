@@ -43,7 +43,7 @@ class karyawanController extends Controller
             if(mysqli_num_rows($result) === 1){
                
                 if($password == $row["password"]){
-                   
+                   $_SESSION["id_karyawan"] = $row["id"];
                     $_SESSION ["Login"] = true; 
                     $_SESSION ["alamat"] = $row["adress"]; 
                     $_SESSION ["email"] = $row["email"]; 

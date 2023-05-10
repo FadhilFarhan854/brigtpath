@@ -15,7 +15,7 @@
             <a href="#">Help</a>
         </nav>
     </header>
-<form action="/store3" method="POST">
+<form action="/store5" method="POST">
     @csrf
 <div class="wrapper">
     <div class="title">
@@ -56,12 +56,10 @@
 
         <div class="inputfield">
             <label>Metode Pembayaran</label>
-            <div class="custom_select" name= "pembayaran">
+            <input type="hidden" name="pembayaran" value="cash">
+            <div class="custom_select" name= "">
                 <select>
                 <option value="Cash">Cash</option>
-                <option value="Ovo">Ovo</option>
-                <option value="Gopay">Gopay</option>
-                <option value="ShopeePay">ShopeePay</option>
                 </select>
             </div>
         </div> 
@@ -85,7 +83,10 @@
         <p>Agreed to terms and conditions</p>
     </div> 
     <div class="inputfield">
-        <input type="submit" value="Pesan Sekarang" class="btn" >
+        <button type="submit" value="Pesan Sekarang" class="btn" name="pemesanan"> Pesan Sekarang </button>
+    </div>
+    <div class="inputfield">
+        <button type="submit" value="Pesan Sekarang" class="btn" name="pesanan_selesai"> Pesanan selesai </button>
     </div>
     </div></form>
     <div class="addbox">
