@@ -73,21 +73,45 @@
             </div>
         </div>
         <div class="bawah">
-            <div class="kotak1">
-                <h5>SAVES YOU TIME</h5><br><br>
+            <div class="kotak">
+                <img src="{{ asset('Asset/time.png') }} " alt="" class="foto">
+                <h5>SAVES YOU TIME</h5>
                 <p>Bright Path helps you live smarter, giving you time to focus on what's most important
                 </p>
             </div>
-            <div class="kotak2">
-
+            <div class="kotak">
+                <img src="{{ asset('Asset/safety.png') }} " alt="" class="foto">
+              <h5>SAFETY FIRST</h5>
+              <p>We rigorously vet all of our Cleaners, who undergo identity checks as well as in-person interviews.</p>
             </div>
+            <div class="kotak">
+                <img src="{{ asset('Asset/cashfree.png') }} " alt="" class="foto"><br><br>
+              <h5>CASH-FREE PAYMENT</h5>
+              <p>Pay securely online only when the cleaning is complete.</p>
+            </div>
+            <div class="kotak">
+                <img src="{{ asset('Asset/quality.png') }} " alt="" class="foto">
+              <h5>ONLY THE BEST QUALITY</h5>
+              <p>Our skilled professionals go above and beyond on every job.</p>
         </div>
         </div>
     </div>
 
-    <div class="background3">
 
+</div>
+<div class="background3">
+    <div class="item">
+        <div class="judulterakhir">
+            <h1>OUR FEATURE</h1>
+        </div>
+        <div class="foto1">
+<img src="{{ asset('Asset/foto1.png') }} " alt="" class="foto">
+
+        </div>
     </div>
+
+</div>
+
   </main>
 </body>
 </html>
