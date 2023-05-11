@@ -147,9 +147,9 @@
                 <div class="card" style="width: 19.5rem;">
                     <img src="{{ asset('Asset/foto2.png') }} " alt="" class="foto">
                     <div class="card-body">
-                      <h5 class="card-title">berbagai layanan paket</h5>
-                      <p class="card-text">Layanan yang disediakan BrightPath adalah paket Hemat,
-                        paket Premium,paket Sultan</p>
+                      <h5 class="card-title">pembersihan luar & dalam</h5>
+                      <p class="card-text">Bagian rumah yang dibersihkan oleh karyawan BrightPath
+                        seperti Halaman rumah,ruang tamu,ruang makan dan lain-lain </p>
                  </div>
                 </div>
     </div>
@@ -160,8 +160,10 @@
         <div class="card" style="width: 20rem;">
             <img src="{{ asset('Asset/foto3.png') }} " alt="" class="foto">
             <div class="card-body">
-              <h5 class="card-title">bapak kau</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Pemesanan Online</h5>
+              <p class="card-text">Calon customer dapat memesan jasa BrightPath
+                dengan cara memesan secara online sehingga customer tidak
+                perlu membuang waktu untuk keluar dari rumah </p>
             </div>
           </div>
     </div>
@@ -169,8 +171,9 @@
         <div class="card "id="akhir" style="width: 19rem;">
             <img src="{{ asset('Asset/foto4.png') }} " alt="" class="foto1">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">jaminan keamanan</h5>
+              <p class="card-text">sebelum kami mengirim jasa kami,
+                kami memeriksa dengan cermat data diri dan kualitas kerja karyawan kami </p>
 
             </div>
           </div>
