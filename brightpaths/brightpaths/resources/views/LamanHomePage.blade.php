@@ -37,7 +37,7 @@
 </div>
 </div>
   </header>
-
+{{-- main --}}
   <main>
     <div class="background1">
         <div class="hitam">
@@ -105,7 +105,7 @@
             <h1>OUR FEATURE</h1>
         </div>
         <div class="foto1">
-<img src="{{ asset('Asset/foto1.png') }} " alt="" class="foto">
+    <img src="{{ asset('Asset/foto1.png') }} " alt="" class="foto">
 
         </div>
     </div>
@@ -113,5 +113,10 @@
 </div>
 
   </main>
+  {{-- footer --}}
+  <footer>
+
+  </footer>
+
 </body>
 </html>
