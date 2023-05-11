@@ -53,15 +53,40 @@
 
     </div>
     <div class="background2">
-        <div><img src="{{ asset('Asset/logo.jpeg') }} " alt="" class="foto">
-            <h1>hehehehe</h1>
+        <div class="hitam">
+        <div class="atas">
+            <div class="lebihhitam">
+                <div class="fotologo">
+                    <img src="{{ asset('Asset/logo.jpeg') }} " alt="" class="foto">
+                </div>
+                <div class="hurufsamping">
+                    <div class="1"><h1>BRIGHT PATH</h1><br><br></div>
+                    <div class="2"><h2>Dont stress,
+                        wel’ll Handle The mess</h2><br>
+                        <br>
+                        <br>
+                        <br></div>
+                       <div class="3"><h3>YOUR TRUST AND SECURITY ARE OUR PRIORITY</h3>
+                       </div>
+
+                </div>
+            </div>
         </div>
+        <div class="bawah">
+            <div class="kotak1">
+                <h5>SAVES YOU TIME</h5><br><br>
+                <p>Bright Path helps you live smarter, giving you time to focus on what's most important
+                </p>
+            </div>
+            <div class="kotak2">
 
-
+            </div>
+        </div>
+        </div>
     </div>
 
     <div class="background3">
-       
+
     </div>
   </main>
 </body>
