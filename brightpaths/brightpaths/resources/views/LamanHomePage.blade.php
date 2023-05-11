@@ -10,16 +10,44 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   <title>Home Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  {{-- header --}}
-  <header>
-  <div class="container">
-    <div class="row">
+
+{{-- header --}}
+<div class="container-fluid" style="margin-right:0%;margin-left:0%; background-color:#1d1d1d; " >
+    <nav class="navbar navbar-expand-lg navbar-light " >
+      <a class="navbar-brand" href="#"><img src="{{ asset('Asset/logo.jpeg') }}" alt="" class="foto" style="width: 20%"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="color:white">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color:white">Logout</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link-secondary" href="#"style="color:white">Help</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"style="color:white">About Us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="justify-content-end">
+        <a href="" class="btn btn-light">Book in 60 second</a>
+      </div>
+    </nav>
+  </div>
+
+  {{-- <div class="container" style="width:100%;margin-right:0px;margin-left:0px;">
+    <div class="row" style="margin-right:0px;margin-left:0px;">
       <div class="col">
-    <header class="header">
+    <header class="header"> --}}
     {{-- <header class="d-flex flex-wrap align-items-center justify-content-center justify-content--py-3 mb-4 border-bottom"> --}}
-      <div class="">
+      {{-- <div class="">
         <img src="{{ asset('Asset/logo.jpeg') }} " alt="" class="foto">
       </div>
 
@@ -32,11 +60,11 @@
       <div class="justify-content-end">
         <a href="" class="btn btn-dark"> Book in 60 second</a>
       </div>
-    {{--</header>--}}
-  </div>
+    </div>
 </div>
-</div>
-  </header>
+</div> --}}
+{{--</header>--}}
+
 {{-- main --}}
   <main>
     <div class="background1">
@@ -104,19 +132,103 @@
         <div class="judulterakhir">
             <h1>OUR FEATURE</h1>
         </div>
-        <div class="foto1">
-    <img src="{{ asset('Asset/foto1.png') }} " alt="" class="foto">
-
-        </div>
+        <div class="up">
+            <div class="FOTO">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ asset('Asset/foto1.png') }} " alt="" class="foto">
+                    <div class="card-body">
+                      <h5 class="card-title">berbagai layanan paket</h5>
+                      <p class="card-text">Layanan yang disediakan BrightPath adalah paket Hemat,
+                        paket Premium,paket Sultan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="FOTO2">
+                <div class="card" style="width: 19.5rem;">
+                    <img src="{{ asset('Asset/foto2.png') }} " alt="" class="foto">
+                    <div class="card-body">
+                      <h5 class="card-title">berbagai layanan paket</h5>
+                      <p class="card-text">Layanan yang disediakan BrightPath adalah paket Hemat,
+                        paket Premium,paket Sultan</p>
+                 </div>
+                </div>
     </div>
 
 </div>
+<div class="down">
+    <div class="FOTO3">
+        <div class="card" style="width: 20rem;">
+            <img src="{{ asset('Asset/foto3.png') }} " alt="" class="foto">
+            <div class="card-body">
+              <h5 class="card-title">bapak kau</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </div>
+      <div class="FOTO4">
+        <div class="card "id="akhir" style="width: 19rem;">
+            <img src="{{ asset('Asset/foto4.png') }} " alt="" class="foto1">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-  </main>
+            </div>
+          </div>
+      </div>
+</div>
+</div>
+</div>
+</main>
+
+
   {{-- footer --}}
-  <footer>
+  <div class="container-fluid" style="color: white; margin-left:0%; margin-right:0%; background-color:#1d1d1d">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Customer Care Line</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"></li>
+            <li class="nav-item mb-2"></li>
+            <li class="nav-item mb-2">Jl. Telekomunikasi. 1, Terusan Buahbatu - Bojongsoang, Telkom University, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257
+            </a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 "></a></li>
+          </ul>
+        </div>
 
-  </footer>
+
+
+        <div class="col-md-5 offset-md-1 mb-3" style="margin-left: 40%">
+          <form>
+            <h5>ingin Bergabung dengan housekeeper kami?</h5>
+
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <a href="" class="btn btn-light" style="font-size: 200%">JOIN US</a>
+
+
+
+            </div><br>
+            <p>FOLLOW US</p>
+            <a href="#"><img src="{{ asset('Asset/instagram.png') }} " alt="" class="foto"></a>
+            <a href="#"><img src="{{ asset('Asset/whatsapp.png') }} " alt="" class="foto"></a>
+            <a href="#"><img src="{{ asset('Asset/facebook.png') }} " alt="" class="foto"></a>
+
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>&copy; All Copyright reserved by D’Hormes Company</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-body-emphasis" href=""><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  {{-- end footer --}}
 
 </body>
 </html>
