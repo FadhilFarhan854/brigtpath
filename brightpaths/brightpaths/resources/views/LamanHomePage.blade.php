@@ -150,7 +150,7 @@
                       <h5 class="card-title">pembersihan luar & dalam</h5>
                       <p class="card-text">Bagian rumah yang dibersihkan oleh karyawan BrightPath
                         seperti Halaman rumah,ruang tamu,ruang makan dan lain-lain </p>
-                 </div>
+                </div>
                 </div>
     </div>
 
