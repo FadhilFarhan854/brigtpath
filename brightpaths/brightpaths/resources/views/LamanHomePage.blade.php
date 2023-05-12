@@ -94,8 +94,8 @@
                         <br>
                         <br>
                         <br></div>
-                       <div class="3"><h3>YOUR TRUST AND SECURITY ARE OUR PRIORITY</h3>
-                       </div>
+                      <div class="3"><h3>YOUR TRUST AND SECURITY ARE OUR PRIORITY</h3>
+                      </div>
 
                 </div>
             </div>
