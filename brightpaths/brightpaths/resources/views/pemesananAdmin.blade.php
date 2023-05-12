@@ -108,10 +108,10 @@ if(!$conn){
             $Lokasi = $value['Lokasi'];
             $service_detail = $value['service_detail'];
             $status = $value['status_pesanan'];
-           
-           ?>
-           
-           <tr>
+        
+        ?>
+        
+        <tr>
 				<td >
 					<?php
 					echo "$id";
@@ -145,14 +145,11 @@ if(!$conn){
 				
 
 			</tr>
-           <?php 
+        <?php 
         }
-       ?>  
+    ?>  
     
     </table>
-    
-   
-
 </body>
 
 </html>

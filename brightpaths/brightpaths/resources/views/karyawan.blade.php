@@ -115,9 +115,9 @@ if(!$conn){
             $adress = $value['adress'];
             $kode_pos = $value['kode_pos'];
             $status = $value['status'];
-           ?>
-           
-           <tr>
+        ?>
+        
+        <tr>
 				<td name = "id">
 					<?php
 					echo "$id";

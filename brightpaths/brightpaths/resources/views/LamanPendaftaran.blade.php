@@ -39,10 +39,10 @@
       
         <div class="inputfield">
           <label>Gender</label>
-         
-           <input type="hidden" id="namas" class = "input" name="jenis_kelamin">
-           <button type="button" class="btn" onclick="price(0)" >Male</button>
-           <button type="button" class="btn"  onclick="price(1)"  >Female</button>
+        
+          <input type="hidden" id="namas" class = "input" name="jenis_kelamin">
+          <button type="button" class="btn" onclick="price(0)" >Male</button>
+          <button type="button" class="btn"  onclick="price(1)"  >Female</button>
           
       </div> 
       <div class="inputfield">
