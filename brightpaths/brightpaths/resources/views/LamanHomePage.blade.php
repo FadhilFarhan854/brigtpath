@@ -15,7 +15,10 @@
 </head>
 
 <body>
-
+<?php 
+session_start();
+$id = $_SESSION["id"];
+?>
 {{-- header --}}
 <div class="container-fluid" style="margin-right:0%;margin-left:0%; background-color:#1d1d1d; " >
     <nav class="navbar navbar-expand-lg navbar-light " >
@@ -37,7 +40,7 @@
         </ul>
       </div>
       <div class="justify-content-end">
-        <a href="" class="btn btn-light">Book in 60 second</a>
+        <a href="/LamanPemesanan" class="btn btn-light">Book in 60 second</a>
       </div>
     </nav>
   </div>
@@ -52,13 +55,13 @@
       </div>
 
       <ul class="justify-content-end mb-md-0">
-        <li><a href="#" class="nav-link px-2">Logout</a></li>
+        <li><a href="/" class="nav-link px-2">Logout</a></li>
         <li><a href="#" class="nav-link px-2 link-secondary">Help</a></li>
         <li><a href="#" class="nav-link px-2">About Us</a></li>
       </ul>
 
       <div class="justify-content-end">
-        <a href="" class="btn btn-dark"> Book in 60 second</a>
+        <a href="/LamanPemesanan" class="btn btn-dark"> Book in 60 second</a>
       </div>
     </div>
 </div>
@@ -207,7 +210,7 @@
             <h5>ingin Bergabung dengan housekeeper kami?</h5>
 
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <a href="" class="btn btn-light" style="font-size: 200%">JOIN US</a>
+              <a href="LamanPendaftaran" class="btn btn-light" style="font-size: 200%">JOIN US</a>
 
 
 

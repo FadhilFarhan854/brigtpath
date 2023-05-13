@@ -56,7 +56,7 @@ class pemesananCOntroller extends Controller
             $query4 = "UPDATE karyawan SET status ='available'  where id='$idk'";
             $results = mysqli_query($conn, $query3);
             $results2 = mysqli_query($conn, $query4);
-            
+            return redirect("/LamanPemesanan");
         }
         
 

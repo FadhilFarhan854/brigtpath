@@ -58,7 +58,7 @@ class AccountController extends Controller
                     if($_SESSION["stat"] == "admin"){
                         return redirect('/Adminmenu');
                     }else{
-                        return redirect('/mainTemp');
+                        return redirect('/Homepage');
                     }
                     
                    

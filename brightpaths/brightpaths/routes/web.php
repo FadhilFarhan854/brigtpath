@@ -36,9 +36,7 @@ Route::get('/LamanPendaftaran', function () {
     return view('LamanPendaftaran');
 });
 
-Route::get('/LamanHomePage', function () {
-    return view('LamanHomePage');
-});
+
 Route::get('/Main', function () {
     return view('mainPage');
 });
@@ -72,4 +70,7 @@ Route::get('/Adminmenu', function () {
 });
 Route::get('/mainTemp', function () {
     return view('lamanUtamatemp');
+});
+Route::get('/Homepage', function () {
+    return view('LamanHomePage');
 });
