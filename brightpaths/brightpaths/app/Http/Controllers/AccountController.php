@@ -70,6 +70,35 @@ class AccountController extends Controller
             
         }
     }
+
+    public function reset(){
+        $server = "localhost";
+        $username="root";
+	    $pass="";
+	    $dbname="brightpaths";
+	
+	    $conn = mysqli_connect($server, $username, $pass, $dbname);
+        if(!$conn){
+            die("connection failed : ". mysqli_connect_error());
+        }
+        if(isset($_POST["Resets"])){
+            $username = $_POST["username"];
+            $currentPassword = $_POST["currentPassword"];
+            $newPassword = $_POST["newPassword"];
+
+            $result = mysqli_query($conn,"Select * From account WHERE nama = '$username'");
+            $row = mysqli_fetch_assoc($result);
+
+            if($currentPassword == $row["password"]){
+                $query2 = "UPDATE account SET password ='$newPassword'  where nama='$username' ";
+                $hasil = mysqli_query($conn, $query2);
+                return redirect("/");
+            }
+
+        }
+
+    }
+    
     
     
 

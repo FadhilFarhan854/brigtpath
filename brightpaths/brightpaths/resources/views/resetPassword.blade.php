@@ -25,8 +25,6 @@
             <button type="submit"><i class='bx bx-search'></i></button>
         </form>
     </header>
-
-    
 <div class="background"></div>
     <div class="container">
         <div class="content">
@@ -45,41 +43,45 @@
 
         </div>
 
-
+    
         </div>
 
         <div class="logreg-box">
-            <div class="form-box login">
-                <form action="/auth" method="post">
-                 
-                    <h2>Log in</h2>
-                        <div class="input-box">
+            <div class="form-box login" >
+                <form action="/reset" method ="POST">
+                    @csrf
+                    <h2>Reset Password</h2>
+                    
+                    <div class="input-box">
                         <span class="icon">
-                            <i class='bx bxs-lock-alt' ></i>
+                            <i class='bx bxs-envelope' ></i>
                         </span>
-                        <input type="username"  name = "username" required>
-                        <label>Username</label>
+                        <input type="text" name ="username" required>
+                        <label>username</label>
                     </div>
                     <div class="input-box">
                         <span class="icon">
                             <i class='bx bxs-lock-alt' ></i>
                         </span>
-                        <input type="password"  name = "pass" required>
-                        <label>password</label>
+                        <input type="password" name ="currentPassword" required>
+                        <label>Current password</label>
                     </div>
-                    
+
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-lock-alt' ></i>
+                        </span>
+                        <input type="password" name = "newPassword" required>
+                        <label>New Password</label>
+                    </div>
 
                     <div class="remember-forgot">
                         <label><input type="checkbox">remember me</label>
-                        <a href="/resetPassword">forgot password? </a>
+                        <a href="#">forgot password? </a>
                     
                     </div>
 
-                <button type="submit" name = "Submit" value = "Submit"class="btn">Login</button>
-
-                <div class="login-register"><p>don't have an account? <a href="/Signin" class="register-link">Sign in</a> </p></div>
-                
-
+                <button type="submit" name = "Resets" value = "Submit"class="btn">Reset</button>
                 </form>
                 
             </div>

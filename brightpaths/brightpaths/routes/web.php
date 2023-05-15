@@ -48,6 +48,7 @@ Route::get('/LamanPemesanan', function () {
 Route::post('/auth', [AccountController::class, 'authentication']);
 Route::post('/authK', [karyawanController::class, 'authk']);
 Route::post('/auth', [AccountController::class, 'authentication']);
+Route::post('/reset', [AccountController::class, 'reset']);
 Route::post('/store5', [pemesananCOntroller::class, 'store5']);
 
 Route::get('/approval', function () {
@@ -73,4 +74,7 @@ Route::get('/mainTemp', function () {
 });
 Route::get('/Homepage', function () {
     return view('LamanHomePage');
+});
+Route::get('/resetPassword', function () {
+    return view('resetPassword');
 });
