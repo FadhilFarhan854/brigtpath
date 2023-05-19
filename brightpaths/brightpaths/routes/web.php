@@ -61,7 +61,7 @@ Route::get('/pemesanan', function () {
     return view('pemesanan');
 });
 Route::get('/LoginKaryawan', function () {
-    return view('LoginKaryawan');
+    return view('LoginKaryawan2');
 });
 Route::get('/pemesananAdmin', function () {
     return view('pemesananAdmin');

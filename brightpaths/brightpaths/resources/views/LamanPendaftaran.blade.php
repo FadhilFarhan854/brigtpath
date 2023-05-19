@@ -22,7 +22,7 @@
                 <a class="nav-link" href="#" style="color:white">Logout</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-secondary" href="#"style="color:white">Help</a>
+                <a class="nav-link link-secondary" href="https://docs.google.com/document/d/12Gm37zjjLY_ztxgjz1LDyrXLAVxongs9/edit?usp=share_link&ouid=116704987552569170973&rtpof=true&sd=true"style="color:white">Help</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#"style="color:white">About Us</a>
