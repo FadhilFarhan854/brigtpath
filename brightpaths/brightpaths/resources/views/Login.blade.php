@@ -11,22 +11,6 @@
 <div></div>
 <body>
     
-    <!-- header -->
-    <header class="header">
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#">Login</a>
-            <a href="#">Giftcard</a>
-            <a href="#">Help</a>
-        </nav>
-
-        <form action="#" class="search-bar">
-            <input type="text" placeholder="search...">
-            <button type="submit"><i class='bx bx-search'></i></button>
-        </form>
-    </header>
-
-    
 <div class="background"></div>
     <div class="container">
         <div class="content">
@@ -51,7 +35,7 @@
         <div class="logreg-box">
             <div class="form-box login">
                 <form action="/auth" method="post">
-                 @csrf
+                @csrf
                     <h2>Log in</h2>
                         <div class="input-box">
                         <span class="icon">
