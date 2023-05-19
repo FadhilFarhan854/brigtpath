@@ -43,42 +43,57 @@
 
     {{-- main --}}
 
-    <main>
+    <main style="background-color: #ECF5FE">
     
         <div class="about-1">
             <h1>About US</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium distinctio explicabo ipsum incidunt numquam illum,
-            neque eos quisquam iure beatae, exercitationem veniam aliquam fuga ad, inventore quas voluptate? Animi, eaque?</p>
+            <br> <br> <br>
+            <center>
+                <img src="{{ asset('Asset/iso.png') }}" alt="" srcset="" style="width: 30%" >
+            </center>
+            <br><br><br>
+            <h6>BRIGHTPATS</h6>
+            <p> BrightPath adalah aplikasi layanan kebersihan yang dirancang untuk memudahkan pengguna dalam mencari dan 
+                memesan jasa pembersihan profesional secara online. Aplikasi ini dibuat dengan tujuan untuk memberikan 
+                solusi yang efisien dan mudah bagi orang-orang yang sibuk dan tidak memiliki waktu atau tenaga untuk 
+                membersihkan rumah atau kantor mereka sendiri.
+                BrightPath menyediakan layanan pembersihan yang beragam, mulai dari pembersihan rumah, kantor, apartemen,
+                hingga pembersihan setelah renovasi. Tim pembersih yang bekerja dengan BrightPath terdiri dari profesional 
+                yang terlatih dan berpengalaman dalam bidangnya, sehingga Anda dapat merasa tenang dan yakin bahwa rumah
+                atau kantor Anda akan ditinggalkan bersih dan rapi.
+
+            </p>
         </div>
 
         <div class="about-2">
             <div class="content-box-lg">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="about-item text-center">
                             <i class="fa fa-book"></i>
                             <h3>MISSION</h3>
                             <hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore consequatur repudiandae ut nemo. Possimus dolorem 
-                            eius similique! Optio dolore consequuntur magni blanditiis esse temporibus, quam sequi et quasi, eos saepe.</p>
+                            <p>
+                                1. Kepuasan Pelanggan <br>
+                                2. Menyediakan Layanan Terbaik. <br>
+                                3. Kebersihan yang komperhensif. <br>
+                                4. Inovasi dan perkembangan. <br>
+                                5. Lingkungan yang berkelanjutan.
+                            </p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="about-item text-center">
                             <i class="fa fa-globe"></i>
                             <h3>VISSION</h3>
                             <hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore consequatur repudiandae ut nemo. Possimus dolorem 
-                            eius similique! Optio dolore consequuntur magni blanditiis esse temporibus, quam sequi et quasi, eos saepe.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="about-item text-center">
-                            <i class="fa fa-pencil"></i>
-                            <h3>ACHIEVEMENTS</h3>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore consequatur repudiandae ut nemo. Possimus dolorem 
-                            eius similique! Optio dolore consequuntur magni blanditiis esse temporibus, quam sequi et quasi, eos saepe.</p>
+                            <p>
+                                1. Memberikan Layanan yang Berkualitas. <br>
+                                2. Solusi Inovatif. <br>
+                                3. Lingkungan Bersih dan Sehat. <br>
+                                4. Meningkatkan kualitas Hidup. <br>
+                                5. Kemitraan yang kuat.
+                            </p>
                         </div>
                     </div>
                 </div>

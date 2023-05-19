@@ -31,9 +31,15 @@
 }
 
 .about-1 p{
-    text-align: center;
+    text-align:justify;
     padding: 3px;
-    color: #fff;
+    color: black;
+}
+
+.about-1 h6{
+    text-align: center;
+    color: black;
+    font-weight: bold;
 }
 
 .about-item{
