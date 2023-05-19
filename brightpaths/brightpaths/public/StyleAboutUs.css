@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 
 .container{
@@ -90,3 +91,4 @@
 .about-item:hover p{
     transition: all 400ms ease-in-out ;
 }
+
