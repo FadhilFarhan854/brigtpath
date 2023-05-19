@@ -30,9 +30,10 @@
         <div class="content">
             <h2 class="logo"><i class='bx bx-shield-plus' ></i>Brightpath</h2>
             <div class="text-sci">
-                <h2>Welcome! <br><span> To our website.</span> </h2>
-    
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos suscipit neque voluptatibus maiores aperiam magni facilis repellendus, porro placeat distinctio hic assumenda numquam asperiores quod doloremque incidunt iste nemo quaerat.</p>
+                <h2>HII DEAR! <br><span> Wellcome To BrightPath.</span> </h2>
+
+                <p> Trusted Cleaner Anytime, Anywhere. Brightpath Connects You With Our Housekeeper Professionals Near You.
+                    <br> Don’t Stress. We’ll Handle The Mess!</p>
 
                 <div class="social-icons">
                     <a href="#"><i class='bx bxl-instagram' ></i></a>
