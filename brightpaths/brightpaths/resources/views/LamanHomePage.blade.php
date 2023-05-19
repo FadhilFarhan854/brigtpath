@@ -45,29 +45,6 @@ $id = $_SESSION["id"];
     </nav>
   </div>
 
-  {{-- <div class="container" style="width:100%;margin-right:0px;margin-left:0px;">
-    <div class="row" style="margin-right:0px;margin-left:0px;">
-      <div class="col">
-    <header class="header"> --}}
-    {{-- <header class="d-flex flex-wrap align-items-center justify-content-center justify-content--py-3 mb-4 border-bottom"> --}}
-      {{-- <div class="">
-        <img src="{{ asset('Asset/logo.jpeg') }} " alt="" class="foto">
-      </div>
-
-      <ul class="justify-content-end mb-md-0">
-        <li><a href="/" class="nav-link px-2">Logout</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">Help</a></li>
-        <li><a href="#" class="nav-link px-2">About Us</a></li>
-      </ul>
-
-      <div class="justify-content-end">
-        <a href="/LamanPemesanan" class="btn btn-dark"> Book in 60 second</a>
-      </div>
-    </div>
-</div>
-</div> --}}
-{{--</header>--}}
-
 {{-- main --}}
   <main>
     <div class="background1">
