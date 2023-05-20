@@ -113,9 +113,9 @@ if(!$conn){
             $no_telephone = $value['no_telephone'];
             $adress = $value['adress'];
             $kode_pos = $value['kode_pos'];
-           ?>
-           
-           <tr>
+        ?>
+        
+        <tr>
 				<td name = "id">
 					<?php
 					echo "$id";
@@ -163,9 +163,9 @@ if(!$conn){
                 
 
 			</tr>
-           <?php 
+        <?php 
         }
-       ?>  
+    ?>  
     
     </table>
     <form action="" method="Get">
@@ -188,7 +188,7 @@ if(!$conn){
     $tambah = mysqli_query($conn, $query3);
 }
     ?>
-   
+
 
 </body>
 

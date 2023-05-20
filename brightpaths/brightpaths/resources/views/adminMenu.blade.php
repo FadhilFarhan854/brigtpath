@@ -33,7 +33,7 @@ if(!isset($_SESSION["Login"])){
     
   </ul>
 </div>
- <section></section>
+<section></section>
 
   </body>
 </html>

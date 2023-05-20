@@ -108,10 +108,10 @@ if(!$conn){
 			$nomor_hp = $value['nomor_hp'];
             $Lokasi = $value['Lokasi'];
             $service_detail = $value['service_detail'];
-           
-           ?>
-           
-           <tr>
+        
+        ?>
+        
+        <tr>
 				<td >
 					<?php
 					echo "$id";
@@ -140,9 +140,9 @@ if(!$conn){
 				
 
 			</tr>
-           <?php 
+        <?php 
         }
-       ?>  
+    ?>  
     
     </table>
     
@@ -167,9 +167,9 @@ if(!$conn){
     $query4 = "UPDATE pemesanan_admin SET id_karyawan = '$id_karyawan' WHERE id = $ids";
     $query3 = "DELETE FROM `pemesanan` WHERE id = $ids";
     $tambah = mysqli_query($conn, $query2);
-     $rest = mysqli_query($conn, $query4);
+    $rest = mysqli_query($conn, $query4);
     $hapus = mysqli_query($conn, $query3);
-   
+
     //query update stat pemesanan admin
 
     

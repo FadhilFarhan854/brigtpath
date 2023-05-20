@@ -12,28 +12,28 @@
 <div class="black">
     <header><div class="container-fluid" style="margin-right:0%;margin-left:0%; background-color:#1d1d1d; " >
         <nav class="navbar navbar-expand-lg navbar-light " >
-          <a class="navbar-brand" href="#"><img src="{{ asset('Asset/logo.jpeg') }}" alt="" class="foto" style="width: 20%"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#"><img src="{{ asset('Asset/logo.jpeg') }}" alt="" class="foto" style="width: 20%"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="color:white">
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style="color:white">
             <ul class="navbar-nav">
-              <li class="nav-item active">
+            <li class="nav-item active">
                 <a class="nav-link" href="#" style="color:white">Logout</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link link-secondary" href="https://docs.google.com/document/d/12Gm37zjjLY_ztxgjz1LDyrXLAVxongs9/edit?usp=share_link&ouid=116704987552569170973&rtpof=true&sd=true"style="color:white">Help</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#"style="color:white">About Us</a>
-              </li>
+            </li>
             </ul>
-          </div>
-          <div class="justify-content-end">
+        </div>
+        <div class="justify-content-end">
             <a href="/LamanPemesanan" class="btn btn-light">Book in 60 second</a>
-          </div>
+        </div>
         </nav>
-      </div></header>
+    </div></header>
     {{-- <header class="header">
         <nav class="navbar">
             <a href="#">Home</a>
