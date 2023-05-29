@@ -231,8 +231,8 @@ body{
 }
 
 .kotak1{
-    width: 640px;
-    height: 90px;
+    width: 100%;
+    height: 25%;
     background-color: rgba(88, 88, 88, 0.416);
 }
 
