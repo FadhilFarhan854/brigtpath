@@ -81,4 +81,7 @@ Route::get('/resetPassword', function () {
 Route::get('/AboutUs', function () {
     return view('AboutUs');
 });
+Route::get('/Account', function () {
+    return view('Account');
+});
 
